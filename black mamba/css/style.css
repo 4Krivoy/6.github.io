@@ -1,0 +1,47 @@
+* {margin: 0%; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+body {background-color: rgb(54, 54, 54); color: rgb(170, 170, 170);}
+.aboba {display: flex; align-items: center; justify-content: center;}
+.col {display: flex; flex-direction: column; margin-left:3px;}
+.knopvidpici {padding:10px; margin-right: 14px;}
+h1 {text-align: center; margin: 10px;}
+legend {text-align: center;}
+.knopkaots {margin-right: 4px; margin-left: 3px;}
+.ots {margin: 6px;}
+.bajan {margin-left: 6px; margin-bottom: 6px; margin-right: 4px;}
+.foto {width: 500px; height: 300px;}
+.lemon {width: 300px; height: 300px;}
+.karta {width: 300px; height: 300px;}
+.knopka {padding: 2px; margin: 6px;}
+.zakaz {margin-bottom:6px; margin-right: 4px;}
+img {transition: transform .05s ease .02s, z-index .01s, .3s linear;}
+.foto:hover {width: 514px; height: 308px;}
+.lemon:hover {width: 308px; height: 308px;}
+.karta:hover {width: 308px; height: 308px;}
+.tex {font-weight:bold}
+label {font-size: 80%;}
+.dom {width: 60px; margin-right: 4px;}
+.vul {width: 146px; margin-bottom: 4px; margin-right: 4px}
+.kvart {width:82px;}
+.abobaa {display: flex; margin-bottom: 4px;}
+form {background: linear-gradient(to left bottom, rgb(42, 42, 42), rgb(53, 53, 53)); box-shadow: 0 0 10px rgba(0,0,0,0.5); border: none;}
+.tema {position: relative; top:20px; left: 30px; text-decoration: none; text-decoration: none; padding: 4px; border: solid 2px rgb(126, 126, 126); font-size: 90%; text-align: center; border-radius: 16px; background-color: rgb(206, 206, 206);}
+a:link, a:visited {color: rgb(126, 126, 126);}
+.textblack {background-color: rgb(85, 85, 85);}
+.skrit {z-index: -1; opacity: 0;}
+.blackkrug>input {position: absolute;z-index: -1;opacity: 0;}
+.blackkrug>span {display: inline-flex;align-items: center;user-select: none;}
+.blackkrug>span::before {transition: transform .05s ease .02s, z-index .01s, .3s linear; content: ''; display: inline-block; width: 1em; height: 1em; flex-shrink: 0; flex-grow: 0; border: 1px solid #8a8a8a; border-radius: 0.75em; margin-left: 0.3em; margin-right: 0.3em; margin-bottom: 0.3em; background-repeat: no-repeat; background-position: center center; background-size: 50% 50%;}
+.blackkrug>input:not(:disabled):not(:checked)+span:hover::before {background-color: #525252;}
+.blackkrug>input:checked+span::before {background-color: #919191;}
+
+.blackkvad>input {position: absolute;z-index: -1;opacity: 0;}
+.blackkvad>span {display: inline-flex;align-items: center;user-select: none;}
+.blackkvad>span::before {transition: transform .05s ease .02s, z-index .01s, .3s linear; content: ''; display: inline-block; width: 1em; height: 1em; flex-shrink: 0; flex-grow: 0; border: 1px solid #8a8a8a; border-radius: 0.2em; margin-left: 0.3em; margin-right: 0.3em; margin-bottom: 0.3em; background-repeat: no-repeat; background-position: center center; background-size: 50% 50%;}
+.blackkvad>input:not(:disabled):not(:checked)+span:hover::before {background-color: #525252;}
+.blackkvad>input:checked+span::before {background-color: #919191;}
+
+@media (max-width: 480px) {
+    body {font-size:120%;}
+}
+
+
